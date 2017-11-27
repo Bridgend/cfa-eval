@@ -154,7 +154,7 @@
 
                         <div class='form-group'>
                             <div class='col-md-10'>
-                                <p class='h4'>O. Knowledge of Chick-fil-A Unit perations: {{ $evaluation->knowledge_of_cfa_operations }}</p>
+                                <p class='h4'>O. Knowledge of Chick-fil-A Unit Operations: {{ $evaluation->knowledge_of_cfa_operations }}</p>
                                 @if ($evaluation->knowledge_of_cfa_operations_comment)
                                 <p style='color:darkblue;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     Comments: {{ $evaluation->knowledge_of_cfa_operations_comment }}</p>
